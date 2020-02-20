@@ -170,6 +170,7 @@ function reducer(state, action) {
 
 
 export default function App() {
+
   const [state, dispatch] = useReducer(reducer, {
     board: initBoard(),
     currentPlayer: yellow,
@@ -184,7 +185,6 @@ export default function App() {
         board={state.board}
         restart={() => dispatch({ type: "restart"})}
       />
-    <p> {state.winner} </p>
     </>
   );
 }

@@ -27,7 +27,7 @@ export default function Board({ board, onClickCell, restart, winner }) {
             style={{backgroundColor: cell.backgroundColor}}
             onClick={() => onClickCell(cell.id)}
           >
-          {cell.id}
+          
           </div>
         ))
       }

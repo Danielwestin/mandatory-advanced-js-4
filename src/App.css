@@ -113,3 +113,17 @@ body{
  70%{transform: translateY(500px)}
  100%{transform: translateY(450px); opacity: 1}
 }
+
+.game-header button{
+  width: 190px;
+  height: 35px;
+  border-radius: 10px;
+  color: black;
+  background: linear-gradient(to right, #FFA300, #BD0000);
+  border: none;
+  outline: none;
+}
+
+.game-header button:hover{
+  background: linear-gradient(to right, #BD0000, #FFA300);
+}
